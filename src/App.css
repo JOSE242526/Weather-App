@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   background-image: url(https://media.istockphoto.com/photos/abstract-blurred-colorful-pastel-tone-of-sunrise-morning-sky-with-picture-id1161071106?k=20&m=1161071106&s=170667a&w=0&h=l6IIKb4TSkph0eWW4W7WC35S8ln2ueArrws7mKJZq1k=);
-  padding: 80px;
+  padding: 60px;
   gap: 20px;
   background-position: center center;
   background-repeat: no-repeat;
@@ -188,6 +188,18 @@
   100% {
     transform: rotate(360deg);
   }
+}
+
+.footer__container {
+  text-align: center;
+  font-size: x-large;
+  background-image: url(https://media.istockphoto.com/photos/abstract-blurred-colorful-pastel-tone-of-sunrise-morning-sky-with-picture-id1161071106?k=20&m=1161071106&s=170667a&w=0&h=l6IIKb4TSkph0eWW4W7WC35S8ln2ueArrws7mKJZq1k=);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 10px;
+  margin: 0;
 }
 
 
