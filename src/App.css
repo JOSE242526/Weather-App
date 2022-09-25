@@ -1,0 +1,193 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://media.istockphoto.com/photos/abstract-blurred-colorful-pastel-tone-of-sunrise-morning-sky-with-picture-id1161071106?k=20&m=1161071106&s=170667a&w=0&h=l6IIKb4TSkph0eWW4W7WC35S8ln2ueArrws7mKJZq1k=);
+  padding: 80px;
+  gap: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: 100vh;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.card {
+  width: 100%;
+  max-width: 500px;
+  background-color: rgba(208, 214, 208, 0.086);
+  padding: 20px;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 6px 6px 20px 19px rgba(228, 221, 220, 0.17);
+  -webkit-box-shadow: 0px 10px 13px -7px #f29f40a8, 6px 6px 20px 19px rgba(240, 238, 244, 0.17); 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  
+}
+
+.ard__icon {
+  vertical-align: middle;
+}
+
+.card__title {
+  grid-column: span 2;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 8px;
+}
+
+.card__subtitle {
+  grid-column: span 2;
+  text-align: center;
+  font-size: 30px;
+}
+
+.card__second-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.second__list {
+  display: grid;
+  gap: 7px;
+  list-style:none
+}
+
+.second__item {
+  color:rgb(6, 6, 6)
+}
+
+.second__span {
+  color:#042c59
+
+}
+
+.card__temperature {
+  grid-column: span 2;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card__btn {
+  grid-column: span 2;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #f6efefc2;
+  border: none;
+  border-radius: 5px;
+  color: rgb(5, 5, 5);
+  text-shadow: 1px 1px 5px #b9c1c9;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 100ms case;
+  margin-bottom: 10px;
+
+}
+
+.card__btn:hover {
+  display: flex;
+  transform: scale(1.05);
+  filter: brightness(1.2);
+  align-items: center;
+  justify-content: center;
+
+}
+
+.lds-roller {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-roller div {
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 40px 40px;
+}
+.lds-roller div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #fff;
+  margin: -4px 0 0 -4px;
+}
+.lds-roller div:nth-child(1) {
+  animation-delay: -0.036s;
+}
+.lds-roller div:nth-child(1):after {
+  top: 63px;
+  left: 63px;
+}
+.lds-roller div:nth-child(2) {
+  animation-delay: -0.072s;
+}
+.lds-roller div:nth-child(2):after {
+  top: 68px;
+  left: 56px;
+}
+.lds-roller div:nth-child(3) {
+  animation-delay: -0.108s;
+}
+.lds-roller div:nth-child(3):after {
+  top: 71px;
+  left: 48px;
+}
+.lds-roller div:nth-child(4) {
+  animation-delay: -0.144s;
+}
+.lds-roller div:nth-child(4):after {
+  top: 72px;
+  left: 40px;
+}
+.lds-roller div:nth-child(5) {
+  animation-delay: -0.18s;
+}
+.lds-roller div:nth-child(5):after {
+  top: 71px;
+  left: 32px;
+}
+.lds-roller div:nth-child(6) {
+  animation-delay: -0.216s;
+}
+.lds-roller div:nth-child(6):after {
+  top: 68px;
+  left: 24px;
+}
+.lds-roller div:nth-child(7) {
+  animation-delay: -0.252s;
+}
+.lds-roller div:nth-child(7):after {
+  top: 63px;
+  left: 17px;
+}
+.lds-roller div:nth-child(8) {
+  animation-delay: -0.288s;
+}
+.lds-roller div:nth-child(8):after {
+  top: 56px;
+  left: 12px;
+}
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
